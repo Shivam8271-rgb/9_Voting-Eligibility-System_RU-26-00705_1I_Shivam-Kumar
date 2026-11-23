@@ -1,6 +1,3 @@
-
-
-
 def check_eligibility(name, age, citizen):
 
     if age >= 18 and citizen == "y":
