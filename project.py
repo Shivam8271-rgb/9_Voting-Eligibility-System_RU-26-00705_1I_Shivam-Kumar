@@ -12,7 +12,7 @@ def check_eligibility(name, age, citizen):
             print("Years left to become eligible:", 18 - age)
 
         if citizen == "n":
-            print("Reason: Not an Indian citizen.")
+            print("Reason: Not an Indian citizen")
 
         return False
 
@@ -29,13 +29,13 @@ while True:
             age = int(input("Enter your age: "))
 
             if age < 0 or age > 120:
-                print("Invalid age. Age must be between 0 and 120.")
+                print("Invalid age. Age must be between 0 and 120")
                 continue
 
             break
 
         except ValueError:
-            print("Invalid input. Enter a whole number.")
+            print("Invalid input. Enter a whole number")
 
     while True:
         citizen = input("Indian citizen (y/n): ").lower()
