@@ -1,6 +1,5 @@
 
-# Voting Eligibility System
-#PS no. = 9
+
 
 def check_eligibility(name, age, citizen):
 
